@@ -3,14 +3,22 @@
     android:layout_width="match_parent" android:layout_height="match_parent"
     >
 
+
+
     <garytech.com.rotateview.RotateView
         android:id="@+id/main_rotate_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_launcher"
-        android:scaleType="matrix"
-        android:contentDescription="@string/app_name"
+        android:src="@drawable/arrow"
         android:layout_centerInParent="true"
+        android:contentDescription="@string/app_name"
         />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 
 </RelativeLayout>
